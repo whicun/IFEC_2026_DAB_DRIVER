@@ -27,18 +27,18 @@
 #define ADC_TO_PIN_VOLTS (3.3f / 4096.0f) // 12-bit ADC with 3.3V reference
 
 // Voltage Calibration
-#define V_GAIN_BAT           174.587f
-#define V_OFFSET_BAT         1.0f
-#define V_GAIN_BUS           174.587f
-#define V_OFFSET_BUS         -1.0f
+#define V_GAIN_BAT           199.493f
+#define V_OFFSET_BAT         2.309f
+#define V_GAIN_BUS           200.839f
+#define V_OFFSET_BUS         -2.083f
 
 
 // Voltage Calibration
-#define V_GAIN_BAT_DIRECT     0.200009f
-#define V_OFFSET_BAT_DIRECT   59.f
+#define V_GAIN_BAT_DIRECT     0.16071f
+#define V_OFFSET_BAT_DIRECT   2.309f
 
-#define V_GAIN_BUS_DIRECT        0.5844f
-#define V_OFFSET_BUS_DIRECT     -508.0f
+#define V_GAIN_BUS_DIRECT        0.16179f
+#define V_OFFSET_BUS_DIRECT     -2.083f
 
 // ---------------------------------------------------------
 // INVERTED CURRENT SENSITIVITIES (1.0f / Sensitivity)
