@@ -24,13 +24,13 @@
 #define P_BASE_INV       0.001f     // 1.0f / 1000.0f
 
 // Calibration constants for ADC conversion
-#define ADC_TO_PIN_VOLTS (3.3f / 4096.0f) // 12-bit ADC with 3.3V reference
+#define ADC_TO_PIN_VOLTS (3.26f / 4096.0f) // 12-bit ADC with 3.3V reference
 
 // Voltage Calibration
-#define V_GAIN_BAT           199.493f
-#define V_OFFSET_BAT         2.309f
-#define V_GAIN_BUS           200.839f
-#define V_OFFSET_BUS         -2.083f
+#define V_GAIN_BAT           208.59f
+#define V_OFFSET_BAT         -0.52f
+#define V_GAIN_BUS           208.93f
+#define V_OFFSET_BUS          -0.70f
 
 
 // Voltage Calibration

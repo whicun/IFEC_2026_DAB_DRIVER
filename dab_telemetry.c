@@ -7,6 +7,8 @@
 
 #include "dab_telemetry.h"
 
+volatile uint32_t telemetery_tx_count = 0;
+
 void DAB_Telemetry_Init(void)
 {
     // Start with RS485 in Receive Mode (DE = LOW)
@@ -65,4 +67,5 @@ void DAB_Telemetry_Transmit_Binary(DAB_HAL_RawSensors_t *raw, DAB_Measurements_t
 
     // 7. Put RS485 chip back into Receive Mode (DE = LOW)
     GPIO_writePin(myBoardRS485_DE, 0);
+    telemetery_tx_count++;
 }
